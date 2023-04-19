@@ -12,12 +12,7 @@ import ScrollToTop from './utils/ScrollToTop';
 
 function App() {
 
-  const routtes = [
-    { path: '/', Component: Main },
-    { path: '/projects', Component: Projects },
-    { path: '/contact', Component: Contact },
-    { path: '/project/:id', Component: OneProject },
-  ]
+
 
   return (
     <div className="App">
