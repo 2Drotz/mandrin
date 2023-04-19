@@ -1,2 +1,1 @@
-# mandrin resume
 
