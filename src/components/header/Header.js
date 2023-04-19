@@ -14,7 +14,7 @@ function Header() {
                <div className="header__text">
                   {/* <p>также увлекаюсь дизайном</p> */}
                </div>
-               <a href="../../res.pdf" className="btn wow bounceIn" data-wow-delay='.4s' download>Открыть</a>
+               <a href="#" className="btn wow bounceIn" data-wow-delay='.4s' download>Открыть</a>
             </div>
 
          </header>
