@@ -1,0 +1,41 @@
+.title-search {
+   padding: 0;
+   margin: 0;
+   font-size: 26px;
+}
+
+.line {
+   min-width: 100%;
+   height: 5px;
+   background-color: var(--purple);
+   animation: color 3s infinite ease-in-out;
+}
+
+.m {
+   display: flex;
+   align-items: center;
+}
+
+@keyframes color {
+   from {
+      background-color: #e96528;
+   }
+
+   20% {
+      background-color: #ffa600;
+
+   }
+
+   50% {
+      background-color: #ffe600;
+   }
+
+   75% {
+      background-color: #ffa600;
+   }
+
+   to {
+      background-color: #e96528;
+   }
+
+}
