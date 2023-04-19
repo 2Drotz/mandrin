@@ -27,7 +27,7 @@ function Main() {
                   </li>
                   <li className="content-list__item">
                      <h2 className="title-2 wow fadeIn" >Прочее</h2>
-                     <p className='wow zoomIn' data-wow-delay='.6s'>Figma, Photoshop, Английский B1, Miro, Notion, Word, Excel</p>
+                     <p className='wow zoomIn' data-wow-delay='.6s'>Figma, Photoshop, Bitrix24.CRM, Английский B1, Miro, Notion, Word, Excel</p>
                   </li>
                </ul>
 
