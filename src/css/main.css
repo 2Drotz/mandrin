@@ -179,7 +179,7 @@ body {
 }
 
 .btn:hover {
-    background-color: #007242;
+    background-color: #000000a9;
 }
 
 .btn:active {
@@ -296,10 +296,6 @@ body {
 .copyright p+p {
     margin-top: 0.5em;
 }
-
-
-/*  фон */
-
 
 
 @media (max-width: 620px) {

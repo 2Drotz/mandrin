@@ -1,5 +1,4 @@
 import Header from '../components/header/Header'
-import SearchJob from '../components/searchJob/SearchJob';
 import { useEffect } from 'react';
 import WOW from 'wowjs'
 function Main() {
@@ -10,7 +9,6 @@ function Main() {
    return (
       <div>
          <Header></Header>
-         <SearchJob></SearchJob>
          <main className="section">
             <div className="container">
                <h1 className="title-1 ">Skills</h1>
