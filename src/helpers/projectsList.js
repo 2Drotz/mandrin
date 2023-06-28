@@ -1,4 +1,4 @@
-import project01 from "./../img/projects/01.jpg";
+import project01 from "./../img/projects/01.png";
 import project01Big from "./../img/projects/01-big.png";
 
 import project02 from "./../img/projects/02.jpg";
@@ -26,34 +26,34 @@ const projects = [
    },
    {
       title: 'Video service',
-      img: project02,
-      imgBig: project02Big,
+      img: '',
+      imgBig: '',
       skills: 'React, PHP, MySql',
       gitHubLink: 'https://github.com',
    },
    {
       title: 'Video portal',
-      img: project03,
-      imgBig: project03Big,
+      img: '',
+      imgBig: '',
       skills: 'Vue JS, Node.js, MongoDB',
       gitHubLink: 'https://github.com',
    },
    {
       title: 'Dating app',
-      img: project04,
-      imgBig: project04Big,
+      img: '',
+      imgBig: '',
       skills: 'React Native',
    },
    {
       title: 'Landing',
-      img: project05,
-      imgBig: project05Big,
+      img: '',
+      imgBig: '',
       skills: 'HTML, SCSS, JS',
    },
    {
       title: 'Gaming community',
-      img: project06,
-      imgBig: project06Big,
+      img: '',
+      imgBig: '',
       skills: 'React, PHP, MySql',
    },
 ];
