@@ -15,19 +15,16 @@ font-family: 'Poppins', sans-serif;
     --black: #222325;
     --black-border: #b9d9ff;
     --white: #ffffff;
-    --purple: #36913d;
-    --light-green: #f2ffea;
-    --test: #535050;
 
     --text-color: var(--black);
 
     --dark-bg: var(--black);
     --dark-border: var(--black-border);
     --header-text: var(--white);
-    --accent: var(--purple);
+    --accent: var(--blackpure);
 
     /* Light mode */
-    --page-bg: var(--light-green);
+    --page-bg: var(--white);
     --text-color: var(--black);
 
     --title-1: var(--accent);
