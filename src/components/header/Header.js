@@ -1,10 +1,11 @@
 import '../header/header.css'
 import 'animate.css';
+import '../../css/main.css'
 
 function Header() {
 
    return (
-      <div>
+      <div className='back'>
          <header className="header">
             <div className="header__wrapper">
                <h1 className="header__title ">
