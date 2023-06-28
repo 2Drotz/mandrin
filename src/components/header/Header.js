@@ -5,7 +5,7 @@ import '../../css/main.css'
 function Header() {
 
    return (
-      <div className='back'>
+      <div >
          <header className="header">
             <div className="header__wrapper">
                <h1 className="header__title ">
