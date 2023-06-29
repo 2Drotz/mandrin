@@ -297,7 +297,7 @@ body {
     margin-top: 0.5em;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 420px) {
 
     /* Header  */
 
@@ -317,6 +317,10 @@ body {
 
     .nav-row {
         justify-content: space-between;
+    }
+
+    .nav-list__link {
+        font-size: 12px;
     }
 
     .dark-mode-btn {
