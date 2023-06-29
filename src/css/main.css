@@ -320,7 +320,7 @@ body {
     }
 
     .nav-list__link {
-        font-size: 12px;
+        font-size: 12px !important;
     }
 
     .dark-mode-btn {
