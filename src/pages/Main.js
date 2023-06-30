@@ -1,6 +1,10 @@
 import Header from '../components/header/Header'
 import { useEffect } from 'react';
 import WOW from 'wowjs'
+import avatar from '../img/avatar.png';
+import book from '../img/book.png';
+
+
 function Main() {
    useEffect(() => {
       new WOW.WOW().init()
@@ -11,17 +15,27 @@ function Main() {
          <Header></Header>
          <main className="section">
             <div className="container">
-               <h1 className="title-1 ">Skills</h1>
+               <h1 className="title-1 ">Обо мне</h1>
 
                <ul className="content-list">
                   <li className="content-list__item">
-                     <h2 className="title-2 wow fadeIn">Обо мне</h2>
-                     <p className='wow zoomIn' data-wow-delay='.1s'>Закончил обучение по технической специальности "Прикладная информатика".
-                        Считаю себя ответственным, внимательным, "мобильным", стараюсь доводить дело до конца, отношусь к работе добросовестно, увлекаюсь программированием, дизайном.</p>
+                     
+                        <div className='my-info'>
+
+                        <div className='text'>
+                        <h2 className="title-2 wow fadeIn">Личность</h2>
+                           <p className='wow zoomIn' data-wow-delay='.1s'>Получил степень бакалавра по технической специальности "Прикладная информатика" в кубанском техническом университете КубГТУ.</p> <br></br>
+                           <p>Считаю себя ответственным, внимательным, "мобильным", стараюсь доводить дело до конца, отношусь к работе добросовестно.</p> <br></br>
+                           <p>Увлекаюсь программированием, дизайном.</p>
+                        </div>
+                        <img className='fon' width={300} src={book}></img>
+                        <img className='avatar' src={avatar}></img>
+                        
+                        </div>
                   </li>
                   <li className="content-list__item">
                      <h2 className="title-2 wow fadeIn" >Фронтенд</h2>
-                     <p className='wow zoomIn' data-wow-delay='.4s'>JavaScript, ReactJS, Redux, HTML, CSS, NPM, BootStrap, MySQL</p>
+                     <p className='wow zoomIn' data-wow-delay='.4s'>JavaScript, ReactJS, GIT, Redux, HTML, CSS, NPM, BootStrap, SQL</p>
                   </li>
                   <li className="content-list__item">
                      <h2 className="title-2 wow fadeIn" >Прочее</h2>

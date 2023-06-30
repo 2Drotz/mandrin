@@ -10,7 +10,7 @@ function Header() {
             <div className="header__wrapper">
                <h1 className="header__title ">
                   <strong>Привет, меня зовут; <em >Дмитрий</em></strong><br />
-                  я начинающий фронтенд~разработчик
+                  я начинающий кто-то
                </h1>
                <div className="header__text">
                   {/* <p>также увлекаюсь дизайном</p> */}
