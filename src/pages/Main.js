@@ -2,7 +2,6 @@ import Header from '../components/header/Header'
 import { useEffect } from 'react';
 import WOW from 'wowjs'
 import avatar from '../img/avatar.png';
-import book from '../img/book.png';
 
 
 function Main() {
@@ -19,17 +18,16 @@ function Main() {
 
                <ul className="content-list">
                   <li className="content-list__item">
-                     
+                  <h2 className="title-2 wow fadeIn">Личность</h2>
                         <div className='my-info'>
+                        
+                           <div className='text'>
+                              <p>Получил степень бакалавра по технической специальности "Прикладная информатика" в кубанском техническом университете КубГТУ.</p> <br></br>
+                              <p>Считаю себя ответственным, внимательным, "мобильным", стараюсь доводить дело до конца, отношусь к работе добросовестно.</p> <br></br>
+                              <p>Увлекаюсь программированием, дизайном.</p>
+                           </div>
 
-                        <div className='text'>
-                        <h2 className="title-2 wow fadeIn">Личность</h2>
-                           <p className='wow zoomIn' data-wow-delay='.1s'>Получил степень бакалавра по технической специальности "Прикладная информатика" в кубанском техническом университете КубГТУ.</p> <br></br>
-                           <p>Считаю себя ответственным, внимательным, "мобильным", стараюсь доводить дело до конца, отношусь к работе добросовестно.</p> <br></br>
-                           <p>Увлекаюсь программированием, дизайном.</p>
-                        </div>
-                        <img className='fon' width={300} src={book}></img>
-                        <img className='avatar' src={avatar}></img>
+                           <img className='avatar' src={avatar}></img>
                         
                         </div>
                   </li>
