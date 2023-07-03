@@ -2,6 +2,7 @@ import '../header/header.css'
 import 'animate.css';
 import '../../css/main.css'
 
+
 function Header() {
 
    return (
@@ -15,7 +16,7 @@ function Header() {
                <div className="header__text">
                   {/* <p>также увлекаюсь дизайном</p> */}
                </div>
-               <a href="https://disk.yandex.ru/i/GcIGKuNt0Uarsg" className="btn wow bounceIn" data-wow-delay='.4s' download>Открыть</a>
+               <a href="../../img/asd.pdf" className="btn wow bounceIn" data-wow-delay='.4s' download>Открыть</a>
             </div>
 
          </header>

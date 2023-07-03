@@ -21,7 +21,7 @@ const OneProject = () => {
                   </div>
 
                   {project.gitHubLink && (
-                     <BtnGitHub link='https://github.com'></BtnGitHub>
+                     <BtnGitHub link={project.gitHubLink}></BtnGitHub>
                   )}
 
 

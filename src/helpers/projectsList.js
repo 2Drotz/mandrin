@@ -1,11 +1,11 @@
 import project01 from "./../img/projects/01.png";
 import project01Big from "./../img/projects/01-big.png";
 
-import project02 from "./../img/projects/02.jpg";
-import project02Big from "./../img/projects/02-big.jpg";
+import project02 from "../img/projects/02.png";
+import project02Big from "../img/projects/02-big.png";
 
-import project03 from "./../img/projects/03.jpg";
-import project03Big from "./../img/projects/03-big.jpg";
+import project03 from "./../img/projects/03.png";
+import project03Big from "./../img/projects/03-big.png";
 
 import project04 from "./../img/projects/04.jpg";
 import project04Big from "./../img/projects/04-big.jpg";
@@ -25,35 +25,35 @@ const projects = [
       gitHubLink: 'https://github.com/2Drotz/ReactPC.com/tree/main',
    },
    {
-      title: 'Video service',
-      img: '',
-      imgBig: '',
-      skills: 'React, PHP, MySql',
-      gitHubLink: 'https://github.com',
+      title: 'Васюринская',
+      img: project02,
+      imgBig: project02Big,
+      skills: 'HTML, Less',
+      gitHubLink: 'https://github.com/2Drotz/vs/tree/master',
    },
    {
-      title: 'Video portal',
-      img: '',
-      imgBig: '',
-      skills: 'Vue JS, Node.js, MongoDB',
-      gitHubLink: 'https://github.com',
+      title: 'Marvel heroes',
+      img: project03,
+      imgBig: project03Big,
+      skills: 'React, SCSS,',
+      gitHubLink: 'https://github.com/2Drotz/MarvelApp',
    },
    {
       title: 'Dating app',
-      img: '',
-      imgBig: '',
+      img: project03,
+      imgBig: project03Big,
       skills: 'React Native',
    },
    {
       title: 'Landing',
-      img: '',
-      imgBig: '',
+      img: project03,
+      imgBig: project03Big,
       skills: 'HTML, SCSS, JS',
    },
    {
       title: 'Gaming community',
-      img: '',
-      imgBig: '',
+      img: project03,
+      imgBig: project03Big,
       skills: 'React, PHP, MySql',
    },
 ];
