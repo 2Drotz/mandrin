@@ -10,8 +10,8 @@ import project03Big from "./../img/projects/03-big.png";
 import test from "./../img/projects/test.png";
 import testBig from "./../img/projects/test-big.png";
 
-import project04 from "./../img/projects/04.jpg";
-import project04Big from "./../img/projects/04-big.jpg";
+import project04 from "./../img/projects/04.png";
+import project04Big from "./../img/projects/04-big.png";
 
 import project05 from "./../img/projects/05.jpg";
 import project05Big from "./../img/projects/05-big.jpg";
@@ -42,10 +42,11 @@ const projects = [
       gitHubLink: 'https://github.com/2Drotz/MarvelApp',
    },
    {
-      title: 'Dating app',
-      img: test,
-      imgBig: testBig,
-      skills: 'React Native',
+      title: 'Portrait on canvas',
+      img: project04,
+      imgBig: project04Big,
+      skills: 'JavaScript, Less, HTML',
+      gitHubLink: 'https://github.com/2Drotz/Portrait-on-canvas'
    },
    {
       title: 'Landing',
