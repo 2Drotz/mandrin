@@ -7,6 +7,9 @@ import project02Big from "../img/projects/02-big.png";
 import project03 from "./../img/projects/03.png";
 import project03Big from "./../img/projects/03-big.png";
 
+import test from "./../img/projects/test.png";
+import testBig from "./../img/projects/test-big.png";
+
 import project04 from "./../img/projects/04.jpg";
 import project04Big from "./../img/projects/04-big.jpg";
 
@@ -35,25 +38,25 @@ const projects = [
       title: 'Marvel heroes',
       img: project03,
       imgBig: project03Big,
-      skills: 'React, SCSS,',
+      skills: 'React, SCSS, HTML',
       gitHubLink: 'https://github.com/2Drotz/MarvelApp',
    },
    {
       title: 'Dating app',
-      img: project03,
-      imgBig: project03Big,
+      img: test,
+      imgBig: testBig,
       skills: 'React Native',
    },
    {
       title: 'Landing',
-      img: project03,
-      imgBig: project03Big,
+      img: test,
+      imgBig: testBig,
       skills: 'HTML, SCSS, JS',
    },
    {
       title: 'Gaming community',
-      img: project03,
-      imgBig: project03Big,
+      img: test,
+      imgBig: testBig,
       skills: 'React, PHP, MySql',
    },
 ];
