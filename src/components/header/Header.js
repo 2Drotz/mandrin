@@ -1,7 +1,8 @@
 import '../header/header.css'
 import 'animate.css';
 import '../../css/main.css'
-import asd from '../../img/asd.pdf'
+import resume from '../../helpers/resume.pdf'
+import fon from '../../img/fon.png'
 function Header() {
 
    return (
@@ -15,7 +16,8 @@ function Header() {
                <div className="header__text">
                   {/* <p>также увлекаюсь дизайном</p> */}
                </div>
-               <a href={asd} className="btn wow bounceIn" download data-wow-delay='.4s' >Открыть</a>
+               {/* <img src={fon}></img> */}
+               {/* <a href={resume} className="btn wow bounceIn" download data-wow-delay='.4s' >Открыть</a> */}
             </div>
 
          </header>
